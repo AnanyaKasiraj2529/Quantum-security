@@ -1,0 +1,23 @@
+🚀 Hybrid QKD + PQC IoT Security Simulation
+
+🟡 BB84 Quantum Key Exchange Started
+Alice bits  : [1, 0, 1, 1, 0, 1, 0, 1, 1, 0]
+Alice bases : ['+', 'x', '+', '+', 'x', '+', 'x', '+', '+', 'x']
+Bob bases   : ['+', '+', '+', 'x', 'x', '+', 'x', '+', 'x', 'x']
+Shared key  : [1, 1, 0, 1]
+
+🟢 Kyber Post-Quantum Key Encapsulation
+Public Key  : a4d7f2...
+Ciphertext : 91fa82...
+Session Key: 3baf1e...
+
+🔐 Authenticating IoT Devices
+Device_1 → 84d19c9e5a7a2c...
+Device_2 → 63b91f4d3a98c1...
+...
+
+📡 Original Data : 1010110010
+🔒 Encrypted     : [0, 1, 1, 0, 1, 0, 1, 0, 0, 1]
+🔓 Decrypted     : 1010110010
+
+✅ Status: SUCCESS
