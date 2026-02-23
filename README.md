@@ -3,46 +3,23 @@ BB84 Quantum Key Distribution + Lattice-Based Post-Quantum Authentication
 
 📌 Project Overview
 This repository presents a hybrid quantum-safe communication framework that integrates:
-BB84 Quantum Key Distribution (QKD)
-Lattice-Based Post-Quantum Cryptography (PQC)
-Hybrid QKD + PQC Authentication Model
-Quantum Bit Error Rate (QBER) Analysis
-Eavesdropper (Eve) Attack Simulation
+- BB84 Quantum Key Distribution (QKD)
+- Lattice-Based Post-Quantum Cryptography (PQC)
+- Hybrid QKD + PQC Authentication Model
+- Quantum Bit Error Rate (QBER) Analysis
+- Eavesdropper (Eve) Attack Simulation
 The goal is to design and simulate a quantum-resilient key exchange protocol suitable for resource-constrained IoT environments, addressing scalability, side-channel risks, and future quantum threats.
 This implementation supports the research work presented in:
 Quantum-Safe Protocols Design for IoT Communications: Critical Observation and Analysis (CISCON 2025)
 
 🧠 Motivation
 With the rise of quantum computing:
-Classical cryptographic schemes (RSA, ECC) are vulnerable to Shor’s Algorithm
-IoT systems operate under low power and limited computation
-Pure QKD systems suffer from scalability and noise sensitivity
-Lattice-based cryptography faces side-channel vulnerabilities
+- Classical cryptographic schemes (RSA, ECC) are vulnerable to Shor’s Algorithm
+- IoT systems operate under low power and limited computation
+- Pure QKD systems suffer from scalability and noise sensitivity
+- Lattice-based cryptography faces side-channel vulnerabilities
 This project explores a hybrid security architecture combining the strengths of both paradigms.
 
-🏗 Repository Structure
-Quantum-Safe-BB84-Lattice-Hybrid/
-│
-├── README.md
-├── LICENSE
-├── requirements.txt
-│
-├── paper/
-│   └── CISCON_2025_Camera_Ready.pdf
-│
-├── notebooks/
-│   ├── 1_Comparative_study_of_QKD_algorithms.ipynb
-│   ├── 2_QKD_and_PQKD_Simulations.ipynb
-│
-├── src/
-│   ├── bb84.py
-│   ├── lattice_crypto.py
-│   ├── hybrid_protocol.py
-│   ├── qber.py
-│   └── attack_models.py
-│
-│
-└── images/
 🔬 Implementation architecture design
 
 1️⃣ BB84 Quantum Key Distribution
@@ -97,7 +74,7 @@ Side-channel threats
 Eavesdropping attempts
 Supports scalability research for IoT systems
 
-🚀 How to Run
+🚀 How to Run:
 1️⃣ Clone Repository
 git clone https://github.com/yourusername/Quantum-Safe-BB84-Lattice-Hybrid.git
 cd Quantum-Safe-BB84-Lattice-Hybrid
