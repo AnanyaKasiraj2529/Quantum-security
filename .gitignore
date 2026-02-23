@@ -1,0 +1,42 @@
+  # Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Results folder (if generated dynamically)
+results/plots/
+results/performance_logs/
+
+# Temporary files
+*.tmp
+*.bak
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Matplotlib cache
+.matplotlib/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
