@@ -10,6 +10,8 @@ BB84 Quantum Key Distribution + Lattice-Based Post-Quantum Authentication
 Official IEEE publication link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=f-wHAfsAAAAJ&citation_for_view=f-wHAfsAAAAJ:u5HHmVD_uO8C
 
 📌 Project Overview
+<img width="608" height="368" alt="image" src="https://github.com/user-attachments/assets/c91d85c6-9145-4f2a-af3e-a64cb347a439" />
+
 This repository presents a hybrid quantum-safe communication framework that integrates:
 - BB84 Quantum Key Distribution (QKD)
 - Lattice-Based Post-Quantum Cryptography (PQC)
