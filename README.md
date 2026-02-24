@@ -52,7 +52,7 @@ This project explores a hybrid security architecture combining the strengths of 
 3. Integrated PQC authentication layer
 4. Evaluated latency and security trade-offs
 
-🔬 Implementation architecture design
+##🔬 Implementation architecture design
 
 1️⃣ BB84 Quantum Key Distribution
 Simulates:
@@ -89,7 +89,8 @@ No Attack	≈ 0
 With Attack	20–30%
 
 
-📊 Key Experimental Results
+
+##📊 Key Experimental Results
 
 ✔ ~50% key retention in BB84
 ✔ Successful lattice encryption & decryption
